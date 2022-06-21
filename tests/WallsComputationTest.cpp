@@ -10,6 +10,7 @@
 #include "../src/WallsComputation.h" //Unit under test.
 #include "../src/InsetOrderOptimizer.h" //Unit also under test.
 
+#define WALLS_COMPUTATION_TEST_SVG_OUTPUT
 #ifdef WALLS_COMPUTATION_TEST_SVG_OUTPUT
 #include "../src/utils/polygon.h"
 #include <cstdlib>
